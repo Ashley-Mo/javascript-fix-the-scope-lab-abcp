@@ -26,7 +26,7 @@ function funkyFunction() {
  
 }
 var me=funkyFunction();
-var theFunk=eval(funkyFunction());
+var theFunk=me();
 console.log(me());
 
 
